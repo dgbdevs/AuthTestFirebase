@@ -24,7 +24,7 @@ const Index = () =>{
                 setUser(user)
                 
                 if (user.emailVerified){
-                    console.log('verificado')
+                    console.log('verificados')
                 }else{
                     sendEmailVerification(auth.currentUser)
                     .then(() => {
